@@ -8,6 +8,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
+from IPython.display import display
 from PIL import Image
 import io
 import cv2
